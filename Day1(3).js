@@ -1,10 +1,10 @@
 // take the input from the user
 const a = prompt('Enter the number: ');
 // square root
-const squareroot = Math.sqrt(a);
+const squareRoot = Math.sqrt(a);
 console.log(`The square root of ${a} is ${squareroot}`);
 // cube root
-const cuberoot= Math.cbrt(a);
+const cubeRoot= Math.cbrt(a);
 console.log(`The cube root of ${a} is ${cuberoot}`);
 // sine theta
 const sine = Math.sinh(a);
