@@ -1,4 +1,4 @@
-//Adiition Of two Numbers by Default Input
+//Addition Of two Numbers by Default Input
 const a=10;
 const b=20;
 // addition of two numbers
