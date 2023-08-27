@@ -6,4 +6,4 @@ const high = parseInt(prompt("Enter a highest number: "));
 const r = Math.floor(Math.random() * (high - low + 1)) + low;
 
 // display a random number
-console.log(`Random number between ${low} and ${high} is ${num}`);
+console.log(`Random number between ${low} and ${high} is ${r}`);
