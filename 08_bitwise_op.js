@@ -1,18 +1,20 @@
-
+// getting input from the users
+const a=  parseInt(prompt('Enter a number: '));
+const b =  parseInt(prompt('Enter another number: '));
 // bitwise AND operator example
-result = a & b; 
-console.log(result); // 8 
+result1 = a & b; 
+console.log(result1); 
 
 // bitwise OR operator example
-result = a | b; 
-console.log(result); // 29
+result2 = a | b; 
+console.log(result2); 
 
 // bitwise XOR operator example
-result = a ^ b; 
-console.log(result); // 21
+result3 = a ^ b; 
+console.log(result3);
 
 // bitwise NOT operator example
-result = ~b;
-console.log(result); // -13
+result4 = ~b;
+console.log(result4); // 
 
 
