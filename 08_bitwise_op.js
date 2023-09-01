@@ -2,19 +2,19 @@
 const a=  parseInt(prompt('Enter a number: '));
 const b =  parseInt(prompt('Enter another number: '));
 // bitwise AND operator example
-result1 = a & b; 
-console.log(result1); 
+result_1 = a & b; 
+console.log(`bitwise AND: ${result_1}`); 
 
 // bitwise OR operator example
-result2 = a | b; 
-console.log(result2); 
+result_2 = a | b; 
+console.log(`bitwise OR: ${result_2}`); 
 
 // bitwise XOR operator example
-result3 = a ^ b; 
-console.log(result3);
+result_3 = a ^ b; 
+console.log(`bitwise XOR: ${result_3}`);
 
 // bitwise NOT operator example
-result4 = ~b;
-console.log(result4); // 
+result_4 = ~b;
+console.log(`bitwise NOT: ${result_4}`); // 
 
 
