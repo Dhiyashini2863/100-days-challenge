@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Value to H1</title>
+</head>
+<body>
+    <input type="text" id="inputBox" onkeyup="updateH1()">
+    <h1 id="result"></h1>
+
+    <script>
+        function updateH1() {
+            var inputBox = document.getElementById("inputBox");
+            var result = document.getElementById("result");
+            result.textContent = inputBox.value;
+        }
+    </script>
+</body>
+</html>
