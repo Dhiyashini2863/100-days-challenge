@@ -3,9 +3,7 @@ class Main {
   public static void main(String[] args)throws Exception
   {
      // create null, empty, and regular strings
-    String str1 = null;
-    String str2 = "";
-    String str3 = "  ";
+    String str1,str2,str3;
     DataInputStream d = new DataInputStream(System.in);
     System.out.print("Enter the string:");
     str1 = d.readLine();
