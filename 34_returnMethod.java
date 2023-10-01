@@ -4,8 +4,7 @@ class Main
 // create a method
   public static int square(int num) {
     
-
-    // return statement
+   // return statement
     return num * num;
   }
 
